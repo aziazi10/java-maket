@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maket</title>
+
+  <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <div class="container bg-success p-5 mt-5">
+    <h3 class="text-center pt-2 pb-4 text-warning">Currency converter Money Gramm</h3>
+
+    <div class="row row-cols-2 d-flex justify-content-center">
+      <div class="col-4">
+        <form class="input-group input-group-sm mb-3 form">
+          <input type="number" class="input form-control" aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-sm">
+          <span class="input-group-text" id="inputGroup-sizing-sm">UZS</span>
+      </div>
+
+      <div class="col-4">
+        <select class="select form-select form-select-sm" aria-label=".form-select-sm example">
+          <option selected disabled>Currency</option>
+          <option value="10854.09">USD</option>
+          <option value="147.62">Russian rouble</option>
+          <option value="12274.21">Euro</option>
+        </select>
+      </div>
+
+      <div class="col-1">
+        <button type="submit" class="btn btn-outline-warning btn-sm">Go</button>
+      </div>
+      </form>
+    </div>
+
+    <div class="w-50 mx-auto">
+      <h1 class="result text-center text-warning">result</h1>
+    </div>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
